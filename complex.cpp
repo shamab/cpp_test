@@ -3,5 +3,5 @@
 
 class complex
 {
-
+int real,imaginary;
 };
