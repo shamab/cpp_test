@@ -14,4 +14,9 @@ int main()
 	cout<<"Enter imaginary part"<<endl;
 	cin<<a.imaginary;
 	cout<<"Entered first number is"<<a<<"+"<<"i"<<b;
+	cout<<"Enter real part of second number in a+ib"<<endl;
+	cin>>b.real;
+	cout<<"Enter imaginary part"<<endl;
+	cin>>b.real;
+
 }
