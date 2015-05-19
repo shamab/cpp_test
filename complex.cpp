@@ -1,33 +1,38 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 class complex
 {
-int real,imaginary;
+public:
+int real, imag;
 };
+
 int main()
 {
 	complex a,b,c;
-	a.real;
-	cout<<"Enter real part of first number in a+ib"<<endl;
-	cin>>a.real;
-	cout<<"Enter imaginary part"<<endl;
-	cin<<a.imaginary;
-	cout<<"Entered first number is"<<a<<"+"<<"i"<<b;
-	cout<<"Enter real part of second number in a+ib"<<endl;
-	cin>>b.real;
-	cout<<"Enter imaginary part"<<endl;
-	cin>>b.imaginary;
-	c.real=a.real+b.real;
-	c.imaginary=a.imaginary+b.imaginary;
-	if(c.imaginary>0)
+        int real, imag;
+	cout << "Enter real part of first number in a+ib" << endl;
+	cin >> real;
+        a.real = real;
+	cout <<"Enter imaginary part" << endl;
+	cin >> imag;
+        a.imag = imag;
+	
+	cout << "Enter real part of second number in a+ib" << endl;
+	cin >> b.real;
+	cout << "Enter imaginary part" << endl;
+	cin >> b.imag;
+	c.real = a.real+b.real;
+	c.imag=a.imag+b.imag;
+	if(c.imag>0)
 	{	
-		cout<<"Resultant of addition is"<<c.real<<"+"<<"i"<<c.imaginary<<endl;
+		cout << "Resultant of addition is" << c.real << "+" << "i" << c.imag<<endl;
 	}
 	else
 	{
-		cout<<"Resultant of addition is"<<c.real<<"-"<<"i"<<c.imaginary<<endl;
+		cout << "Resultant of addition is" << c.real << "-" << "i" << c.imag << endl;
 	}
-
->>>>>>> fe163f4f0a4d676d8b5cef7a56fbd9eae4da40a3
+return 0;
 }
+
