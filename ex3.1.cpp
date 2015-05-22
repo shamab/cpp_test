@@ -27,12 +27,12 @@ double sum=0;
 	for(location= 0; location< 10;location++)
 	{
 		sum= sum + numbers[location];
-
 	}
+	cout<<sum<<endl;
 	for(location=9;location>=0;location--)
 	{
-		double (numbers[location])=numbers[location]/sum;
-		cout<<numbers[location]<<endl;
+		
+		cout<<double(numbers[location])/sum<<endl;
 	}
 }
 int main()
